@@ -139,3 +139,5 @@ C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.newdatabase.r
 C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Seedusers.resources
 C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberForApplicationUserProfile.resources
+C:\Users\78669\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberForApplicationUserProfile1.resources
