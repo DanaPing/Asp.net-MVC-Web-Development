@@ -62,6 +62,7 @@ namespace Vidly.Controllers.api
             
             _context.SaveChanges();
         }
+        //DELETE /api/customers/id
         [HttpDelete]
         public void DeleteCustomer(int id)
         {
