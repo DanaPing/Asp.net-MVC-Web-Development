@@ -2,7 +2,7 @@
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace Vidly.Models
+namespace Vidly.ViewModel.Manage
 {
     public class ManageLoginsViewModel
     {

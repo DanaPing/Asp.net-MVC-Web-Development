@@ -191,6 +191,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\api\CustomersController.cs" />
     <Compile Include="Controllers\api\MovieController.cs" />
+    <Compile Include="Dtos\RentalDto.cs" />
+    <Compile Include="Controllers\api\RentController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -222,8 +224,21 @@
     <Compile Include="Migrations\202201291310224_AddPhoneNumberForApplicationUserProfile1.designer.cs">
       <DependentUpon>202201291310224_AddPhoneNumberForApplicationUserProfile1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201311449028_AddRentalTable.cs" />
+    <Compile Include="Migrations\202201311449028_AddRentalTable.designer.cs">
+      <DependentUpon>202201311449028_AddRentalTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201311451461_AlterColumnInRentalTable.cs" />
+    <Compile Include="Migrations\202201311451461_AlterColumnInRentalTable.designer.cs">
+      <DependentUpon>202201311451461_AlterColumnInRentalTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201311653068_FixRentalModel.cs" />
+    <Compile Include="Migrations\202201311653068_FixRentalModel.designer.cs">
+      <DependentUpon>202201311653068_FixRentalModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="ViewModel\Manage\AddPhoneNumberViewModel.cs" />
     <Compile Include="ViewModel\Manage\ChangePasswordViewModel.cs" />
     <Compile Include="ViewModel\ConfigureTwoFactorViewModel.cs" />
@@ -545,6 +560,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201291310224_AddPhoneNumberForApplicationUserProfile1.resx">
       <DependentUpon>202201291310224_AddPhoneNumberForApplicationUserProfile1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201311449028_AddRentalTable.resx">
+      <DependentUpon>202201311449028_AddRentalTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201311451461_AlterColumnInRentalTable.resx">
+      <DependentUpon>202201311451461_AlterColumnInRentalTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201311653068_FixRentalModel.resx">
+      <DependentUpon>202201311653068_FixRentalModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

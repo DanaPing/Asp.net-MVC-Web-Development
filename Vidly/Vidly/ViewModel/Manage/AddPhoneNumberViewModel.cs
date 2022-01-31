@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Vidly.Models
+namespace Vidly.ViewModel.Manage
 {
     public class AddPhoneNumberViewModel
     {

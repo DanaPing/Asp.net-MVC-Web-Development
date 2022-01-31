@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vidly.Models
+namespace Vidly.ViewModel.Account
 {
     public class SendCodeViewModel
     {

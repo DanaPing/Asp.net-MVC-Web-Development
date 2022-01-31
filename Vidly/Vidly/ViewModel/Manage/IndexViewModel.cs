@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNet.Identity;
 
-namespace Vidly.Models
+namespace Vidly.ViewModel.Manage
 {
     public class IndexViewModel
     {
