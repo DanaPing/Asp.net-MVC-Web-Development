@@ -191,6 +191,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\api\CustomersController.cs" />
     <Compile Include="Controllers\api\MovieController.cs" />
+    <Compile Include="Controllers\RentalController.cs" />
     <Compile Include="Dtos\RentalDto.cs" />
     <Compile Include="Controllers\api\RentController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
@@ -235,6 +236,18 @@
     <Compile Include="Migrations\202201311653068_FixRentalModel.cs" />
     <Compile Include="Migrations\202201311653068_FixRentalModel.designer.cs">
       <DependentUpon>202201311653068_FixRentalModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202010719177_AddNumberAvaliableInMovieTable.cs" />
+    <Compile Include="Migrations\202202010719177_AddNumberAvaliableInMovieTable.designer.cs">
+      <DependentUpon>202202010719177_AddNumberAvaliableInMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202011421249_UpdateNumberAvaliableInMovieTable.cs" />
+    <Compile Include="Migrations\202202011421249_UpdateNumberAvaliableInMovieTable.designer.cs">
+      <DependentUpon>202202011421249_UpdateNumberAvaliableInMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202041211553_updateNumberAvaliable.cs" />
+    <Compile Include="Migrations\202202041211553_updateNumberAvaliable.designer.cs">
+      <DependentUpon>202202041211553_updateNumberAvaliable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -383,16 +396,27 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
+    <Content Include="Content\typeahead.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bloodhound.js" />
+    <Content Include="Scripts\bloodhound.min.js" />
     <Content Include="Scripts\bootbox.js" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\typeahead.bundle.js" />
+    <Content Include="Scripts\typeahead.bundle.min.js" />
+    <Content Include="Scripts\typeahead.jquery.js" />
+    <Content Include="Scripts\typeahead.jquery.min.js" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -417,6 +441,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <Content Include="Views\Rental\New.cshtml" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -569,6 +596,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201311653068_FixRentalModel.resx">
       <DependentUpon>202201311653068_FixRentalModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202010719177_AddNumberAvaliableInMovieTable.resx">
+      <DependentUpon>202202010719177_AddNumberAvaliableInMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202011421249_UpdateNumberAvaliableInMovieTable.resx">
+      <DependentUpon>202202011421249_UpdateNumberAvaliableInMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202041211553_updateNumberAvaliable.resx">
+      <DependentUpon>202202041211553_updateNumberAvaliable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

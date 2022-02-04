@@ -20,5 +20,6 @@ namespace Vidly.Dtos
         public DateTime AddDate { get; set; }
        
         public int NumberInStock { get; set; }
+      
     }
 }

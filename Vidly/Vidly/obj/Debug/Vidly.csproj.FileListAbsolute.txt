@@ -287,3 +287,6 @@ C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.c
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRentalTable.resources
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.AlterColumnInRentalTable.resources
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixRentalModel.resources
+C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaliableInMovieTable.resources
+C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNumberAvaliableInMovieTable.resources
+C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.updateNumberAvaliable.resources

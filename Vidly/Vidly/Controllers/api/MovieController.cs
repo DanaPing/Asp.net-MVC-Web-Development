@@ -22,10 +22,13 @@ namespace Vidly.Controllers.api
         }
 
         //GET /api/movie
-        public IHttpActionResult GetMovies()
+        public IHttpActionResult GetMovies(string query = null)
         {
-            var moviesDto = _context.Movies
-                .Include(m=>m.Genre)
+            var movieQuery = _context.Movies.Include(m => m.Genre);
+            if (!String.IsNullOrWhiteSpace(query))
+                movieQuery = movieQuery.Where(m => m.Name.Contains(query));
+
+            var moviesDto = movieQuery
                 .Select(Mapper.Map<Movie, MovieDto>);
             return Ok(moviesDto);
         }
@@ -42,9 +45,11 @@ namespace Vidly.Controllers.api
         [HttpPost]
         public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
+            
             if (!ModelState.IsValid)
                return BadRequest();
             var movie = Mapper.Map<MovieDto, Movie>(movieDto);
+            
             _context.Movies.Add(movie);
             _context.SaveChanges();
             return Created(new Uri(Request.RequestUri + "/" + movie.Id), movieDto);

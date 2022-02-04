@@ -92,7 +92,9 @@ namespace Vidly.Controllers
 
             if (movie.Id == 0)
             {
-            _context.Movies.Add(movie);
+           
+                _context.Movies.Add(movie);
+            
 
             }
             else
@@ -103,6 +105,7 @@ namespace Vidly.Controllers
                 movieInDb.GenreId = movie.GenreId;
                 movieInDb.AddDate = movie.AddDate;
                 movieInDb.NumberInStock = movie.NumberInStock;
+                movieInDb.NumberAvaliable = movie.NumberInStock;
 
             }
             try

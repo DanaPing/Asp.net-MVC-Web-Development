@@ -25,5 +25,7 @@ namespace Vidly.Models
         [StockOver0]
         public int NumberInStock { get; set; }
 
+        public int NumberAvaliable { get; set; }
+
     }
 }

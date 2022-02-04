@@ -15,7 +15,8 @@
                 @Html.Partial("_LoginPartial")
             </div>
             <div >
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav">                    
+                    <li>@Html.ActionLink("Rental","New","Rental")</li>
                     <li>@Html.ActionLink("Customer", "Index", "Customers")</li>
                     <li>@Html.ActionLink("Movie", "Index", "Movies")</li>
                     
