@@ -290,3 +290,4 @@ C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.M
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvaliableInMovieTable.resources
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateNumberAvaliableInMovieTable.resources
 C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\obj\Debug\Vidly.Migrations.updateNumberAvaliable.resources
+C:\Users\78669\Desktop\Asp.net-mvc-Web-Development\Vidly\Vidly\bin\Elmah.dll
