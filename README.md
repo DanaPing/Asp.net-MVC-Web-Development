@@ -1,4 +1,4 @@
-# Asp.net-mvc-Web-Development
+# Asp.net-MVC-Web-Development
 
 This repository records the learning process of asp.net mvc web development. 
 
